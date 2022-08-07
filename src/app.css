@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'Nb international pro';
+	src: url('./assets/fonts/NB-International-Pro-Regular.woff') format('woff'),
+		url('./assets/fonts/NB-International-Pro-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+html {
+	background-color: #000000;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h1,
+h3,
+h3,
+p,
+button {
+	color: #fff;
+}
+
+p,
+a,
+button {
+	font-size: 16px;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #a0a0a0;
+}
+
+a:hover {
+	color: #fff;
+}
+
+button {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button {
+	outline: none;
+	border: none;
+}
+
+#app {
+	width: 90vw;
+	max-width: 900px;
+	min-height: 90vh;
+	margin: 30px 0 30px 0;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	color: none;
+	background: #1f1f1f;
+}
+
+::selection {
+	color: none;
+	background: #353535;
+}
+
+.btn-light {
+	background-color: none;
+	background: none;
+	border: none;
+	color: #fff;
+	text-decoration: underline dotted #fff;
+}
+
+.btn-light:hover {
+	color: #8bf5d3;
+	text-decoration: underline dotted #8bf5d3;
+}
+

@@ -1,0 +1,11 @@
+[build]
+  command = "yarn build"
+  functions = "functions"
+  publish = "dist"
+
+[dev]
+  command = "yarn dev"
+  framework = "vite"
+
+[functions]
+  node_bundler = "esbuild"

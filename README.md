@@ -7,7 +7,7 @@ It's compatible with Ethereum, Polygon, BSC and Gnosis and only supports erc20 t
 ```bash
 git clone https://github.com/antaexyz/wallet-transfer.git
 cd wallet-transfer
-yarn install
+yarn install && yarn --cwd ./functions install
 ```
 
 
@@ -17,6 +17,4 @@ yarn install
 
 2 - Rename the **.env.example** file to **.env** and add your api key
 
-3 - Installs packages with `yarn install`
-
-4 - Starts the server with `yarn nd`
+3 - Start the server with `yarn nd`

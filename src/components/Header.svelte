@@ -2,7 +2,7 @@
 <h2>Transfer all your tokens from a wallet to another in a few clicks.</h2>
 <p>
 	I found it very annoying to send all my tokens one by one to my new wallet
-	address, so I made this app. <br /> It's compatible with Ethereum, Polygon, and
+	address, so I made this app. <br /> It's compatible with Ethereum, Polygon, BSC and
 	Gnosis and only supports erc20 tokens for the moment.
 </p>
 
